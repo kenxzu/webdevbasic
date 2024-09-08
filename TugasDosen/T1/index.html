@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centered Form</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f2f2f2;
+    }
+
+    .form-container {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+    }
+
+    .form-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .form-container label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .form-container input[type="text"],
+    .form-container input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box; /* Ensures input fields don't exceed the container width */
+    }
+
+    .form-footer {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+
+    button {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .submit-btn {
+      background-color: #4CAF50;
+      color: white;
+      width: 100%;
+      height: 40px;
+      border-radius: 4px;
+    }
+
+    .register-btn {
+      background-color: #008CBA;
+      color: white;
+    }
+
+    .forgot-password {
+      background-color: transparent;
+      border: none;
+      color: #008CBA;
+      cursor: pointer;
+    }
+
+    .forgot-password:hover {
+      text-decoration: underline;
+    }
+
+
+    hr{
+        margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  
+   <section>
+    <div class="form-container">
+        <h2>LOGIN</h2>
+        <form action="biodata.html">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter Username">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter Password" required>
+      
+            <input type="submit" value="Submit" class="submit-btn">
+          </form>
+      
+          <div class="form-footer">
+            <button type="button" class="register-btn"  onclick="window.location.href='daftar.html'">Register</button>
+            <button type="button" class="forgot-password"><u>Forgot Password?</u></button>
+          </div>
+          <hr>
+        <p style="text-align: center;"> Powered by me</p>
+        <p style="text-align: center;"> &copy; 2024 Kamooor</p>
+        </div>
+
+ 
+
+</body>
+</html>

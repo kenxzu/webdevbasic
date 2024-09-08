@@ -1,10 +1,25 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+body{
+    background-image: url('konsis 9.jpg');
+    background-repeat: no-repeat;
+}
+.button {
+    background-color: rgb(26, 167, 131);
+    display: inline-block;
+    text-align: center;
+
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 60px;
+    height: 40px;
+    line-height: 40px; /* Ensures text is vertically centered */
+    vertical-align: middle;
+    margin-left: 1250px;
+  
 }
 
+
 .container {
-    text-align: center; /* Centers the content horizontally within the container */
+    text-align: center; 
 }
 
 form {
@@ -17,13 +32,13 @@ form {
 }
 
 a {
-    color: blue;
+    color: black;
     text-decoration: none;
 }
 img {
     border-radius: 100px;
 
-    margin-bottom: 10px; /* Remove or reduce space between image and form */ /* Added margin to separate the image from the form */
+    margin-bottom: 10px; 
 }
 .isian {
     margin-top: 40px;
@@ -65,7 +80,7 @@ img {
     margin-right: auto; /* Push the image marquee to the left */
 }
 .navbar button {
-    background-color: rgb(0, 47, 255);
+        background-color: rgb(26, 167, 131);
     float: left;
     display: block;
     text-align: center;
@@ -91,3 +106,11 @@ footer.container {
     text-align: center;
 }
 
+
+header {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+table{
+    text-align: center;
+}

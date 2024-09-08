@@ -4,53 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomePage</title>
-    <link rel="stylesheet" href="homepage.css">
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        .navbar {
-            background-color: #333;
-            padding: 10px;
-            display: flex;
-            align-items: center;
-        }
-        .navbar nav {
-            display: flex;
-            align-items: center;
-            width: 100%;
-        }
-        .navbar marquee {
-            margin-right: auto; /* Push the image marquee to the left */
-        }
-        .navbar a, .navbar button {
-            color: white;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
-            background-color: transparent;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        .navbar a:hover, .navbar button:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        .navbar button {
-            background-color: #444;
-            border-radius: 5px;
-        }
-        section .container {
-            text-align: center;
-            margin-top: 50px;
-        }
-        footer.container {
-            margin-top: 20px;
-            text-align: center;
-        }
-    </style>
+
+    <link rel="stylesheet" href="app.css">
+
 </head>
 <body>
     <header>
@@ -59,14 +15,14 @@
                 <marquee behavior="" direction="right">
                     <img width="200px" height="100px" src="https://akcdn.detik.net.id/visual/2023/08/24/rocky-gerung-3_169.jpeg?w=480&q=90" alt="Marquee Image">
                 </marquee>
-                <a href="#home">Home</a>
-                <a href="#about">About Me</a>
-                <a href="#services">Schedule</a>
+                <a href="#home"><b>Home</b></a>
+                <a href="#about">About</a>
+                <a href="schedule.html">Schedule</a>
                 <button onclick="window.location.href='contact.html'">Contact</button>
             </nav>
         </div>
     </header>
-    <section>
+    <section style="margin-bottom: 200px;">
         <div class="container">
             <img height="100px" width="100px" src="profile.jpg" alt="Profile photo">
             <h1>Selamat Datang Di Web Saya</h1>
@@ -75,7 +31,7 @@
 
     <footer class="container">
         <hr/>
-        <p>&copy; 2024 Your Company</p>
+        <p>&copy; 2024 copyright</p>
     </footer>
 </body>
 </html>

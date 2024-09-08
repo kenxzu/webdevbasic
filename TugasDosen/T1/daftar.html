@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        input[type="text"], input[type="password"],input[type="reset"], input[type="submit"]{
+            margin: 5px;
+            width: 300px;
+            box-sizing: border-box;
+          }
+        textarea {
+            margin: 5px;
+            width: 300px;
+            box-sizing: border-box;
+            vertical-align: middle;
+        }
+          label {
+            display: inline-block;
+            width: 130px; /* Adjust width as needed */
+            margin-bottom: 5px;
+            vertical-align: middle;
+            text-align: left;
+          }
+          select {
+            margin: 5px;
+            width: 300px;
+            box-sizing: border-box;
+        }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="text-align: center">Form Pendaftaran</h1>
+      <hr />
+    </header>
+
+    <section style="margin-bottom: 60px;">
+        <form action="biodata.html">
+            <fieldset style="text-align: center">
+                <legend>Data Diri</legend>
+                <label for="nama">Username :</label>
+                <input
+                  type="text"
+                  id="username"
+                  name="username"
+                  required
+                  placeholder="Username"
+                /><br />
+                <label for="password" id="nama" name="nama">Password : </label>
+                <input type="password" id="pass" name="pass" placeholder="password" />
+              </fieldset>
+              <fieldset style="text-align: center">
+                <legend>Informasi Akun</legend>
+                <label for="nama">Nama :</label>
+                <input type="text" id="nama" name="nama" required />
+                <br />
+                <label for="gender">Jenis-Kelamin: </label>
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">Laki-Laki</label>
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">Perempuan</label><br>
+                <label for="hobi">Hobi : </label>
+                <input type="checkbox" id="hobi1" name="hobi" value="hobi1" />
+                <label for="basket">Basket  </label>
+                <input type="checkbox" id="hobi2" name="hobi" value="hobi2" />
+                <label for="basket">Berenang</label><br>
+                <label for="alamat">Alamat :</label>
+                <textarea id="alamat" name="alamat" rows="4" cols="50" required></textarea>
+                <br />
+                <label for="mySelect">Asal Kota : </label>
+                <select id="mySelect">
+                    <option value="option1">Salatiga</option>
+                    <option value="option2">Semarang</option>
+                    <option value="option3">Surabaya</option>
+                    <option value="option4">Solo</option>
+                </select>
+              
+             
+              </fieldset>
+              <div style="text-align: center;" >
+                <input style="height: 40px;" type="reset">
+                <input style="height: 40px;" type="submit" value="Submit" />
+              </div>
+
+        </form>
+     
+    </section>
+    <footer >
+        <hr>
+        <p style="text-align: center;">Powered by me</p>
+        <p style="text-align: center;">&copy; 2024 Kamooorin</p>
+    </footer>
+  </body>
+</html>

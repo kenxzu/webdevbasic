@@ -3,9 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MySocialMedia</title>
+    <link rel="stylesheet" href="app.css">
+    <style>
+        h2{
+            margin-bottom: 40px; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+        .ikon{
+            margin-right: 20px;
+            margin-left: 20px;
+            vertical-align: middle; 
+        }
+        .card{
+            display: inline-block;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-left: 15px;
+            background-color: aqua;
+         
+        }
+    
+        footer button {
+            background-color: rgb(0, 47, 255);
+            float: left;
+            display: block;
+            text-align: center;
+            padding: 14px 20px;
+            border-radius: 10px;
+            border : none;
+            text-decoration: none;
+            margin: 20px 20px 20px 20px;
+        
+        }
+        img{
+            padding: 10px;
+        }
+        
+
+    </style>
 </head>
 <body>
-    my contact
+    <header>
+        <div class="navbar">
+            <nav>
+                <marquee behavior="" direction="right">
+                    <img width="200px" height="100px" src="https://akcdn.detik.net.id/visual/2023/08/24/rocky-gerung-3_169.jpeg?w=480&q=90" alt="Marquee Image">
+                </marquee>
+                <a href="homepage.html">Home</a>
+                <a href="#about">About</a>
+                <a href="schedule.html">Schedule</a>
+                <button onclick="window.location.href='contact.html'">Contact</button>
+            </nav>
+        </div>
+        
+    </header>
+    
+    <section>
+        <h2>My Social Media</h2>
+        <div>
+            <div class="card">
+                <div class="ikon">
+                    <a href="https://www.instagram.com/timnasindonesia/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/600px-Instagram_logo_2022.svg.png" 
+                        alt="Description of the image" 
+                        style="width:200px;height:200px;">
+                      </a>
+                </div>
+                  <div>
+                    <p>Timnas Indonesia</p>
+                  </div>   
+            </div>
+           <div class="card">
+            <div class="ikon">
+                <a href="https://www.facebook.com/zuck?locale=id_ID">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" 
+                    alt="Description of the image" 
+                    style="width:200px;height:200px;">
+                  </a>  
+            </div>
+                <p>Mark Zuckberg</p>
+            <div>
+                <p></p>
+            </div>
+            
+           </div>
+           
+           <div class="card">
+            <div class="ikon">
+                <a href="https://mail.google.com/">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1200px-Gmail_icon_%282020%29.svg.png" 
+                    alt="Description of the image" 
+                    style="width:200px;height:200px;">
+                  </a>  
+            </div>
+            <div>
+                <p>Gmail</p>
+            </div>
+    
+           </div>
+             
+        </div>
+    </section>
+    <footer class="button">
+        <a href="homepage.html">Back</button>
+    </footer>
+   
+   
 </body>
 </html>

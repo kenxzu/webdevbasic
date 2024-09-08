@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>myapp</title>
-  <link rel="stylesheet" href="index.css">
-</head>
-<body>
-
-  
-   <section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myapp</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
     <div class="form-container">
-        <h2>LOGIN</h2>
+      <header><h2>LOGIN</h2></header>
+      <section>
         <form action="biodata.html">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required placeholder="Enter Username">
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" placeholder="Enter Password" required>
-      
-            <input type="submit" value="Submit" class="submit-btn">
-          </form>
-      
-          <div class="form-footer">
-            <button type="button" class="register-btn"  onclick="window.location.href='daftar.html'">Register</button>
-            <button type="button" class="forgot-password"><u>Forgot Password?</u></button>
-          </div>
-          <hr>
-        <p style="text-align: center;"> Powered by me</p>
-        <p style="text-align: center;"> &copy; 2024 Kamooor</p>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Enter Username"
+          />
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter Password"
+            required
+            minlength="4"
+          />
+
+          <input type="submit" value="Login" class="submit-btn" />
+        </form>
+
+        <div class="form-footer">
+          <a class="button" href="daftar.html">Daftar</a>
+          <a class="button">Forgot Password?</a>
         </div>
+      </section>
 
- 
-
-</body>
+      <footer>
+        <hr />
+        <p style="text-align: center">Designed by @Kamorin</p>
+        <p style="text-align: center">&copy; 2024 All Rights Reserved</p>
+      </footer>
+    </div>
+  </body>
 </html>

@@ -4,7 +4,8 @@ body {
 }
 
 .container {
-    text-align: center; /* Centers the content horizontally within the container */
+    text-align: center;
+    /* Centers the content horizontally within the container */
 }
 
 form {
@@ -12,7 +13,7 @@ form {
     padding: 20px;
     background-color: #3fb19e7c;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -20,11 +21,15 @@ a {
     color: blue;
     text-decoration: none;
 }
+
 img {
     border-radius: 100px;
 
-    margin-bottom: 10px; /* Remove or reduce space between image and form */ /* Added margin to separate the image from the form */
+    margin-bottom: 10px;
+    /* Remove or reduce space between image and form */
+    /* Added margin to separate the image from the form */
 }
+
 .isian {
     margin-top: 40px;
 }
@@ -38,32 +43,36 @@ img {
 
 }
 
-     
+
 .navbar nav {
     display: flex;
     align-items: center;
     width: 100%;
-   
+
 }
 
 
 .navbar marquee {
-    margin-right: auto; /* Push the image marquee to the left */
+    margin-right: auto;
+    /* Push the image marquee to the left */
 }
 
 
-.navbar a{
+.navbar a {
     float: left;
     display: block;
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
-   
+
 }
+
 .navbar marquee {
-    margin-right: auto; /* Push the image marquee to the left */
+    margin-right: auto;
+    /* Push the image marquee to the left */
 }
+
 .navbar button {
     background-color: rgb(0, 47, 255);
     float: left;
@@ -71,23 +80,25 @@ img {
     text-align: center;
     padding: 14px 20px;
     border-radius: 10px;
-    border : none;
+    border: none;
     text-decoration: none;
 
 }
 
 
-        
-.navbar a:hover, .navbar button:hover {
+
+.navbar a:hover,
+.navbar button:hover {
     background-color: #ddd;
     color: black;
 }
+
 section .container {
     text-align: center;
     margin-top: 50px;
 }
+
 footer.container {
     margin-top: 20px;
     text-align: center;
 }
-

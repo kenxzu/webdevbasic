@@ -1,0 +1,29 @@
+input[type="text"], input[type="password"],input[type="reset"], input[type="submit"]{
+    margin: 5px;
+    width: 300px;
+    box-sizing: border-box;
+  }
+textarea {
+    margin: 5px;
+    width: 300px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+  label {
+    display: inline-block;
+    width: 130px; /* Adjust width as needed */
+    margin-bottom: 5px;
+    vertical-align: middle;
+    text-align: left;
+  }
+  select {
+    margin: 5px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+body {
+  background-image: url('konsis 9.jpg');
+  background-repeat: no-repeat;
+
+}

@@ -1,0 +1,119 @@
+body {
+    background-image: url('konsis 9.jpg');
+    background-repeat: no-repeat;
+}
+
+.button {
+    background-color: rgb(26, 167, 131);
+    display: inline-block;
+
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    margin-left: 1250px;
+
+}
+
+
+
+.container {
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    padding: 20px;
+    background-color: #3fb19e7c;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+
+img {
+    border-radius: 100px;
+
+    padding: 10px;
+
+
+    margin-bottom: 10px;
+}
+
+.isian {
+    margin-top: 40px;
+}
+
+.navbar {
+    margin-top: 0px;
+    overflow: hidden;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.navbar nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+.navbar marquee {
+    margin-right: auto;
+}
+
+
+.navbar a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+
+}
+
+.navbar marquee {
+    margin-right: auto;
+}
+
+
+
+
+.navbar a:hover,
+.navbar button:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+section .container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer.container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+header {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    text-align: center;
+}
